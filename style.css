@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("./Fonts/Ubuntu-Medium.ttf");
+}
+
+
+@font-face {
+    font-family: Ubuntu-regular;
+    src: url("./Fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-light;
+    src: url("./Fonts/Ubuntu/Ubuntu-Light.ttf");
+}
+
+
+
+
+
+/* heading */
+
+.header {
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 34px;
+}
+
+
+
+.parent ul{
+
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 37px;
+
+}
+
+.parent li {
+    font-size: 24px;
+    color: #957554;
+    font-weight: 500;
+    margin: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+.forms {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+
+
+.formschild{
+
+    border-radius: 10px;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    line-height: 23px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.forms button {
+    color: #FFFFFF;
+    background-color: #DFAA5B;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 157px;
+    height: 60px;
+    padding: 10px;
+    font-weight: 300;
+
+    
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    height: 690px;
+    background-image: url("./hh.png");
+    background-size: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.texts h1{
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 106.41px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
+
+
+}
+
+.texts h5{
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 50px;
+    background: none;
+
+}
+.button button{
+
+    margin-top: 41px;
+    border: 1px;
+    border-radius: 10px;
+    width: 371px;
+    height: 76px;
+    background-color: #DFAA5B;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 27.58px;
+    font-weight: 500px;
+
+   
+
+
+}
+
+
+/* facilties */
+
+.facilties h2{
+    text-align: center;
+    color: #957554;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    margin-top: 42px;
+    margin-bottom: 53px;
+    font-family: Ubuntu;
+    text-transform: capitalize;
+    font-style: normal;
+
+}
+
+.fac_cont{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.fac_parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fac_img{
+    background-color: var(--white);
+    object-fit: contain;
+}
+.fac_text{
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color:#957554;
+    font-family: Ubuntu;
+    font-style: normal;
+}
+
+
+
+/* rooms*/
+
+
+.rooms{
+    margin-top: 102px;
+}
+
+.Rooms h2{
+    text-align: center;
+    color: #957554;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    margin-top: 42px;
+    margin-bottom: 53px;
+    font-family: Ubuntu;
+    text-transform: capitalize;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cards h3{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+    background: none;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    text-transform: capitalize;
+    font-style: normal;
+}
+.cards button{
+    width: 244px;
+    height: 76px;
+    margin-top: 19px;
+    margin-bottom: 58px;
+    padding: 24px 50px;
+    border: 5px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #DFAA5B;
+}
+
+.card1{
+    background-image:url(./twin-room.png);
+    width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    background-size: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.card2{
+    background-image: url(./standard-room.png);
+    width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    background-size: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.card3{
+    background-image: url(./view-room.png);
+    width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    background-size: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20px;
+}
+.card4{
+    background-image: url(./deluxe-room.png);
+    width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    background-size: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.Book{
+    text-align: center;
+    width: 100%;
+    height: 339px;
+    margin: 0 auto;
+}
+.Book h2{
+    text-align: center;
+    color: #957554;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52px;
+    margin-top: 42px;
+    margin-bottom: 53px;
+    font-family: Ubuntu;
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.Book button{
+    text-align: center;
+    width: 418px;
+    height: 76px;
+    margin: 40px;
+    padding: 24px 150px;
+    border: 5px;
+    border-radius: 10px;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background-color: #DFAA5B;
+}
+.footer{
+    width: 100%;
+    height: 469px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+    
+}
+.columns1{
+    padding-top: 61px;
+
+}
+.columns1 img{
+    padding-left: 55px;
+    padding-bottom: 68px;
+}
+.columns1 h4 {
+    padding-top: 60px;
+    margin-left: 60px;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+
+}
+
+
+.columns2{
+    padding-top: 61px;
+
+
+}
+.columns2 h6{
+    padding-top: 60px;
+    margin-left: 60px;
+    color: #FFFFFF;
+    font-family:  Ubuntu-regular;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+
+}
+
+
+.columns3{
+    padding-top: 61px;
+    margin-right: 70px;
+    width: 30%;
+}
+.columns3 h4{
+
+    color: #FFFFFF;
+    margin: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+
+}
+.columns3 input{
+    width: 371px;
+    height: 75px;
+    margin: 10px;
+    padding: 25px 170px 25px 28px;
+    border: 5px;
+    border-radius: 10px;
+    font-family: 'Ubuntu-light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+.columns3 button{
+   
+    width: 371px;
+    height: 75px;
+    margin: 10px;
+    padding: 22px 100px;
+    border: 5px;
+    border-radius: 10px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--white);
+    background-color: #DFAA5B;
+    color: #FFFFFF;
+}
+
